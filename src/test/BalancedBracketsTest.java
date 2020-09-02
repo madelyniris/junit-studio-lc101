@@ -11,6 +11,12 @@ public class BalancedBracketsTest {
     public void emptyTest() {
         assertEquals(true, true);
     }
+    @Test
+    public void onlyBracketsReturnTrue(){
+        assertTrue(main.BalancedBrackets.hasBalancedBrackets("[]"));
+    }
+
+
 
 
 }
